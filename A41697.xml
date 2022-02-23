@@ -1,0 +1,555 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A poem most humbly offered to the memory of Her late Sacred Majesty, Queen Mary by R. Gould.</title>
+            <author>Gould, Robert, d. 1709?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A41697</idno>
+            <idno type="STC">Wing G1430</idno>
+            <idno type="STC">ESTC R15845</idno>
+            <idno type="EEBO-CITATION">13604869</idno>
+            <idno type="OCLC">ocm 13604869</idno>
+            <idno type="VID">100744</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A41697)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100744)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 788:37)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A poem most humbly offered to the memory of Her late Sacred Majesty, Queen Mary by R. Gould.</title>
+                  <author>Gould, Robert, d. 1709?</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The second edition.</edition>
+               </editionStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Jacob Tonson and Francis Saunders ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Licensed Jan. 23, 1694/5; D. Poplar."</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mary --  II, --  Queen of England, 1662-1694 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100744:1"/>
+            <pb facs="tcp:100744:1"/>
+            <p>A POEM Moſt humbly offered to the MEMORY Of HER Late Sacred Majeſty, QUEEN <hi>MARY.</hi>
+            </p>
+            <p>By <hi>R. GOULD.</hi>
+            </p>
+            <p>Licenſed, <hi>Jan.</hi> 23. 1694/5. <hi>D. POPLAR.</hi>
+            </p>
+            <p>
+               <hi>The Second Edition.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Jacob Tonſon</hi> and <hi>Francis Saunders,</hi> at the <hi>Judge's Head</hi> near the <hi>Inner-Temple-Gate</hi> in <hi>Fleetſtreet,</hi> and the <hi>Blue Anchor</hi> in the Lower Walk of the <hi>New-Exchange,</hi> 1695.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:100744:2"/>
+            <pb n="3" facs="tcp:100744:2"/>
+            <head>A POEM Moſt humbly offered to the MEMORY Of HER Late Sacred Majeſty.</head>
+            <lg>
+               <l>BOTH Kind and Fortunate the Year begun</l>
+               <l>Her happy Courſe, and long went ſmiling on;</l>
+               <l>Freſh Bleſſings daily ope'ning to our View,</l>
+               <l>With Promiſes of Greater to enſue.</l>
+               <l>The <hi>Senate</hi> did their <hi>Sov'reign</hi>'s Wants ſupply,</l>
+               <l>And ready Grants are half a Victory:</l>
+               <l>That done, He early opens the Campaign,</l>
+               <l>Armies at Land, and Navies on the Main.</l>
+               <l>Where never <hi>Britiſh</hi> Sails before were ſpread</l>
+               <l>In Hoſtile Guiſe, our conqu'ring Fleets are led.</l>
+               <l>
+                  <hi>Lords of the Ocean</hi> long our ſelves we nam'd,</l>
+               <l>And now, as far as that does reach, are fam'd.</l>
+               <l>
+                  <hi>Spain,</hi> whoſe <hi>Armado</hi> made the World afraid,</l>
+               <l>Fell by our Strength, and riſes by our Aid.</l>
+               <l>Though from the vaſter <hi>Continent</hi> diſ-join'd,</l>
+               <l>The Balance falls as <hi>Britain</hi> is inclin'd:</l>
+               <l>If Peace ſhe gives, ſhe does compoſe the Jar;</l>
+               <l>And does as ſurely conquer, if 'tis War.</l>
+               <pb n="4" facs="tcp:100744:3"/>
+               <l>To their own Ports confin'd, the <hi>French-Men</hi> ſee,</l>
+               <l>"We ride without a Rival on the Sea.</l>
+               <l>As <hi>Tourville, Ruſſell;</hi> ſo their Gen'ral too</l>
+               <l>At Land does think it ſafeſt out of View;</l>
+               <l>Entrench'd he lies, and fights us by delay;</l>
+               <l>But let him think of <hi>Cannae</hi>'s Fatal Day.</l>
+               <l>A Day like that, and quickly too, may come,</l>
+               <l>And <hi>Paris,</hi> took, be humbled in her Doom,</l>
+               <l>Though that leſs famous Warrior fail'd of <hi>Rome.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus our Affairs abroad— At home no leſs,</l>
+               <l>The bounteous Year did all our Labours bleſs.</l>
+               <l>The fertile Soil, like <hi>Ægypt</hi> heretofore,</l>
+               <l>By Handfuls a prodigious Product bore:</l>
+               <l>Ne'r had the Reaper's Gripe ſo large a Pull;</l>
+               <l>And ſtill our Garners and our Stores are full.</l>
+               <l>Mean while our neighb'ring Foes, by Want of Reign</l>
+               <l>To Dearth reduc'd, had ſcarce their Seed again:</l>
+               <l>Starving and haraſs'd by their <hi>Tyrant</hi>'s Luſt,</l>
+               <l>They crouch beneath his Spurn, and lick the Duſt.</l>
+            </lg>
+            <lg>
+               <l>This Harveſt o'er, another yet ſucceeds,</l>
+               <l>
+                  <hi>William</hi> return'd! and Crown'd with Glorious Deeds!</l>
+               <l>That Juſt Reſtorer of our Rights and Laws:</l>
+               <l>And, hark! the Univerſal lov'd Applauſe</l>
+               <l>Welcomes, at once, their Great Deliv'rer home,</l>
+               <l>Our <hi>CÆSAR,</hi> too, from <hi>Gaul</hi> in Triumph come.</l>
+               <l>Bells, Guns, and Shouts, in one loud Concert join;</l>
+               <l>The Voice of Nations is the Voice Divine.</l>
+               <l>Scarce Sacred <hi>Charles,</hi> whoſe Abſence long we mourn'd,</l>
+               <l>Joy of our Hearts, more lov'd and bleſt return'd.</l>
+               <l>
+                  <hi>Saviour of Nations,</hi> hail! Nor have w' implor'd</l>
+               <l>The Pow'rs in vain, You are in Peace reſtor'd!</l>
+            </lg>
+            <lg>
+               <l>Thus far w' are happy— Hitherto the Year</l>
+               <l>Was not the Occaſion of a Publick Tear:</l>
+               <l>Almoſt expir'd, who wou'd expect to find</l>
+               <l>Her blackeſt Day, and gloomieſt Scene behind?</l>
+               <pb n="5" facs="tcp:100744:3"/>
+               <l>It now has cancell'd all it gave before,</l>
+               <l>Ne'er but with Grief to be remembred more!</l>
+               <l>Our Sun of Beauty's ſett! our Joy is done!</l>
+               <l>And with Her Life the <hi>Britiſh</hi> Glory gone!</l>
+            </lg>
+            <lg>
+               <l>Where was the Guardian-Angel of theſe Iſles?</l>
+               <l>(On which 'tis ſaid delighted Nature Smiles)</l>
+               <l>Or where was Hers? To what ſtrange Region gone,</l>
+               <l>And left his Chrage to periſh here alone?</l>
+               <l>Return! Return! and, paler than Her Ghoſt,</l>
+               <l>See what the World by your Neglect has loſt!</l>
+               <l>Death of thy Abſence has th'Advantage took,</l>
+               <l>And dreadfully he grinn'd, and deep he ſtrook!</l>
+               <l>Baniſh'd from <hi>Paradiſe</hi> be now thy Doom,</l>
+               <l>Ne'er to thy Native Seat again to come:</l>
+               <l>Hadſt thou been careful, as thy Nature's kind,</l>
+               <l>Our Light that is extinguiſh'd, yet had ſhin'd!</l>
+               <l>But with our Hopes let now our Lives be done,</l>
+               <l>And that way mourn the <hi>Q<g ref="char:V">Ʋ</g>EEN</hi> of <hi>Britain</hi> gone!</l>
+            </lg>
+            <lg>
+               <l>But tho' thy Miniſters their Charge forſake,</l>
+               <l>O Heav'n! thy Eyes for ever are awake.</l>
+               <l>You might, at leaſt, (but you are pleas'd 'tis ſo)</l>
+               <l>Have ſtood between HER and the Fatal Blow;</l>
+               <l>Nor let the pale-fac'd Tyrant from us torn</l>
+               <l>That <hi>GEMM</hi> by <hi>Britain</hi> with ſuch Glory worn.</l>
+               <l>Why do we Mortals Adoration pay?</l>
+               <l>For Bleſſings praiſe you, and for Bleſſings pray?</l>
+               <l>If thoſe we deareſt love, and higheſt prize,</l>
+               <l>Are ſnatch'd the ſooneſt from our wondring Eyes!</l>
+               <l>Hard your Decrees! your Laws unequal made!</l>
+               <l>Why muſt the faireſt Flow'rs the ſooneſt fade?</l>
+               <l>Why muſt that Sacred Life ſo quickly end,</l>
+               <l>On which the Peace of Nations does depend?</l>
+               <l>In all Her Sweetneſs, Glory, Youth and Prime,</l>
+               <l>Abhorring Vice, and ſtill redeeming Time:</l>
+               <l>Ah, cruel Heav'n! ſo little in your Eye,</l>
+               <l>And yet leſs great in Pow'r than Piety.</l>
+               <pb n="6" facs="tcp:100744:4"/>
+               <l>When the bright Sun haſtes to his Ev'ning-Fall,</l>
+               <l>Like Age deceas'd, he ſcarce is miſs'd at all:</l>
+               <l>But if, in his Noon-Station in the Skyes,</l>
+               <l>A black Eclipſe does ſhroud him from our Eyes,</l>
+               <l>W'are pale with Fear, and his loſt Glory mourn,</l>
+               <l>Though ſure both Heat and Light will ſoon return.</l>
+               <l>How ſhall we then our preſent Fate deplore?</l>
+               <l>Our Light's extinct, and is to ſhine no more!</l>
+            </lg>
+            <lg>
+               <l>'Tis true, the Stars their baleful Infl'ence ſhed,</l>
+               <l>And Death's fierce Agents thro' the Town were ſpred,</l>
+               <l>Diſeaſes rag'd and whet their Arrows keen,</l>
+               <l>And flew in Peſtilential Air unſeen:</l>
+               <l>But <hi>Princes</hi> ſhould from common Ills be ſpar'd,</l>
+               <l>Not periſh meanly with the Vulgar Herd:</l>
+               <l>In Pow'r ſo like th' Immortals, they ſhou'd be,</l>
+               <l>Methinks, leaſt ſubject to Mortality.</l>
+               <l>Or granting humane Nature to be frail,</l>
+               <l>
+                  <hi>Prayer</hi> is preſcrib'd, why did not <hi>Prayer</hi> prevail?</l>
+               <l>Why deaf, ye Powers, to all our Vows and Cries?</l>
+               <l>Sent up aloud, yet baniſh'd from the Skies.</l>
+               <l>Ah, may we not too ſadly now complain,</l>
+               <l>That we have pray'd with Faith, yet pray'd in vain!</l>
+               <l>Had <hi>Prayer</hi> been efficacious, She had been</l>
+               <l>A Living, not a Dead, a Periſh'd QUEEN!</l>
+            </lg>
+            <lg>
+               <l>But 'tis your Will, and we ſubmit to Fate,</l>
+               <l>Our Part's to hope, and not expoſtulate;</l>
+               <l>Since in all Turns and Changes, here below,</l>
+               <l>You ſtill have Ends above our Reach to know:</l>
+               <l>Forgive me then, that thus I dare to blame</l>
+               <l>Divine Decrees, and tax the Sacred Name.—</l>
+               <l>But we may mourn— That wretched Liberty</l>
+               <l>You cannot to our out-caſt Race deny:</l>
+               <l>Grief ſeems to be our ſole Prerogative,</l>
+               <l>Faithful to Life, and all that Life can give:</l>
+               <l>Your Love and Bounty, as you pleaſe, are ſhown</l>
+               <l>In other things, but Miſery's our own.</l>
+               <pb n="7" facs="tcp:100744:4"/>
+               <l>Hear then, ye <hi>Britains,</hi> and attend me well,</l>
+               <l>While the ſad Muſe does all thoſe Wonders tell</l>
+               <l>In which the bright <hi>MARIA</hi> did excell:</l>
+               <l>Then, pale and dying with your Grief, bemone</l>
+               <l>Th' amazing Loſs of ſo much Goodneſs gone!</l>
+            </lg>
+            <lg>
+               <l>Tho' She did move in ſuch a Glorious Sphere,</l>
+               <l>She often ſtoop'd, and made the Poor her Care,</l>
+               <l>And ſeem'd to place Her ſole Diverſion there:</l>
+               <l>Her Favour and Compaſſion did extend</l>
+               <l>Where-e'er there was Occaſion to befriend.</l>
+               <l>Wide as Her Pow'r, and boundleſs as Her Mind,</l>
+               <l>Was Her diffuſive Love to Humane-kind.</l>
+               <l>You, Ladies, that ſtill had HER in your View,</l>
+               <l>And ſaw to what a Pitch Her Vertues flew;</l>
+               <l>O blame me not, that in the Van I place</l>
+               <l>Her Charity, that firſt beſt Fruit of Grace:</l>
+               <l>Above the Clouds it does its Vot'ries raiſe,</l>
+               <l>And leaves on Earth their Everlaſting Praiſe:</l>
+               <l>But O! our Praiſe muſt now be mixt with Mone!</l>
+               <l>The QUEEN of Bounty, and of <hi>Britain</hi>'s gone!</l>
+            </lg>
+            <lg>
+               <l>But tho' this Vertue bore ſo ſtrong a Sway,</l>
+               <l>Yet did She not more often Give, than Pray:</l>
+               <l>The Charming <hi>Suppliant</hi> for our Fau'ts wou'd kneel,</l>
+               <l>And we th' Effects of Her Devotions feel.</l>
+               <l>How often has Her Sacred Knees been bent</l>
+               <l>Mercies to crave, and Judgments to prevent?</l>
+               <l>Ah! grant (She'd cry) 'ere yet thy Vengeance fall</l>
+               <l>Upon theſe ſtubborn Lands and ruine All;</l>
+               <l>By Penitence they may thy Rage divert,</l>
+               <l>And make thy Laws their only Joy of Heart.</l>
+               <l>Long they have err'd, and trod in impious Ways,</l>
+               <l>Prophan'd thy Sabbaths, and renounc'd thy Praiſe!</l>
+               <l>O ſet 'em right! and let Religion be</l>
+               <l>Not thus in talking of, but following Thee.</l>
+               <l>Such earneſt Raptures wou'd She, living, breathe,</l>
+               <l>And, dying, did in Legacies bequeath.</l>
+               <pb n="8" facs="tcp:100744:5"/>
+               <l>Who now will for a murm'ring People ſue,</l>
+               <l>That grudge both <hi>Caeſar</hi> and their <hi>GOD</hi> his Due?</l>
+               <l>Our Sins have loſt <hi>HER</hi>— we can hope for none!</l>
+               <l>Our mighty'ſt Earthly Interceſſor's gone!</l>
+            </lg>
+            <lg>
+               <l>So firmly She all Sacred Truth believ'd;</l>
+               <l>(O more than Saint!) She ev'ry Month Receiv'd:</l>
+               <l>Fixt to that Orb, She kept Her Soul in Tune,</l>
+               <l>And thought She never could excell too ſoon.</l>
+               <l>So eaſie all Offences to forgive;</l>
+               <l>Even <hi>Hermits</hi> die leſs pure than SHE did live.</l>
+               <l>No Parallel can reach HER, <hi>Lamb</hi> or <hi>Dove,</hi>
+               </l>
+               <l>Nor this in Innocence, nor that in Love.</l>
+               <l>Angels alone are with like Meekneſs grac't,</l>
+               <l>And dying Virgins only are as Chaſt.</l>
+            </lg>
+            <lg>
+               <l>If thoſe that moſt abaſe themſelves muſt be</l>
+               <l>Exalted, and attain the Top Degree,</l>
+               <l>SHE was a <hi>Q<g ref="char:V">Ʋ</g>EEN</hi> by Her Humility;</l>
+               <l>Zealous not of Her own, but People's Eaſe:</l>
+               <l>For Pride and Sloth were Her <hi>Antipodes.</hi>
+               </l>
+               <l>Tho' on Her Head She wore the Sacred Gold,</l>
+               <l>Her Fingers wou'd the feeble Diſtaff hold;</l>
+               <l>Nor from the Needle would She turn Her Hand,</l>
+               <l>But that and t' other artfully command;</l>
+               <l>The Golden Thread in Rich Embroid'ry twine,</l>
+               <l>Till it was wrought into ſome Form Divine;</l>
+               <l>At His Return Her Monarch to adorn,</l>
+               <l>And only fit to be by Monarch's worn.</l>
+               <l>How ill will this fam'd Pattern now agree,</l>
+               <l>With the looſe Race of lazie Quality?</l>
+               <l>If, Ladies, you wou'd have a Glorious Name,</l>
+               <l>Like HERS in Life, and after Death in Fame;</l>
+               <l>Fly Idleneſs, and ill-perſwading Eaſe,</l>
+               <l>Nor be too proud, or over-fond to pleaſe:</l>
+               <l>Think of the Plainneſs of your <hi>Sov'reign</hi>'s Dreſs,</l>
+               <l>It neither made Her Worth or Beauties leſs.</l>
+               <pb n="9" facs="tcp:100744:5"/>
+               <l>If Vertue don't from Death her Vot'ries free,</l>
+               <l>How can you be preſerv'd by Vanity?</l>
+               <l>Think of Her Fate, and ſoon expect your own;</l>
+               <l>Can Glow-Worms hope for Light when Stars have none?</l>
+            </lg>
+            <lg>
+               <l>If Mercy ſhou'd ſome Humane Likeneſs take,</l>
+               <l>She cou'd not a more Glorious Figure make;</l>
+               <l>Cou'd not our Souls more pleaſingly allure,</l>
+               <l>Or ſcarce more Bleſſings to thoſe Souls procure.</l>
+               <l>No Sweetneſs, nor no Charm that Heav'n cou'd prize,</l>
+               <l>But ſate triumphant in Her conqu'ring Eyes!</l>
+               <l>To gaze but on <hi>HER</hi> ſtruck ſo bright a Flame</l>
+               <l>Up in our Hearts, it yet does want a Name!</l>
+               <l>Not ſuch with which weak Beauties blind our Sight,</l>
+               <l>At once 'twas Love, Amazement and Delight;</l>
+               <l>In Her ſoft Aſpect, and Her eaſie Meen</l>
+               <l>Were all the Beauties, Loves and Graces ſeen,</l>
+               <l>And <hi>SHE</hi> o'er All preſiding as their QUEEN.</l>
+               <l>Others they might to our Eſteem prefer,</l>
+               <l>But they themſelves had their Eſteem from <hi>HER:</hi>
+               </l>
+               <l>They flow'd not to Her, but did from Her run,</l>
+               <l>As Light from Flame, or Brightneſs from the Sun.</l>
+               <l>Then, when She ſpoke, She charm'd the Air around:</l>
+               <l>
+                  <hi>Muſick</hi> no more was a harmonious Sound!</l>
+               <l>To ſavage Natures it did Mildneſs bring,</l>
+               <l>Rage was diſarm'd, and Envy dropt her Sting.</l>
+               <l>If fam'd <hi>Amphion</hi> with his Lyre cou'd call</l>
+               <l>Th'enliven'd Stones into the <hi>Theban</hi> Wall;</l>
+               <l>What was Her Tongue, that cou'd our Jars compoſe,</l>
+               <l>More rugged, and to poliſh worſe than thoſe?</l>
+               <l>Weakneſs with Strength, the Backward with the Bold</l>
+               <l>She cloſely join'd, and in a <hi>Gordian</hi> Fold.</l>
+               <l>But O, the Line is cut! the Union's done!</l>
+               <l>The <hi>Q<g ref="char:V">Ʋ</g>EEN</hi> of Concord, and of <hi>Britain</hi>'s gone!</l>
+            </lg>
+            <lg>
+               <l>You who were with Her Royal Converſe bleſt</l>
+               <l>Muſt feel this Blow more deeply than the reſt;</l>
+               <l>Your Joys are null! the tuneful Voice is ceas'd!</l>
+               <pb n="10" facs="tcp:100744:6"/>
+               <l>Run through the Court with your diſhevell'd Hair,</l>
+               <l>Swoon with your Grief, and rave with your Deſpair!</l>
+               <l>With Sighs and mournful Cries fill ev'ry Room,</l>
+               <l>Then pale as Death into the <hi>Preſence</hi> come!</l>
+               <l>Where late you waited on the Beauteous QUEEN,</l>
+               <l>Only the Canopy of State is ſeen;</l>
+               <l>And that too with dark Sables cover'd o're,</l>
+               <l>And dumbly ſeems HER Abſence to deplore.</l>
+               <l>Let not the Vulgar Sorrow yours exceed,</l>
+               <l>You ſhou'd not only weep HER Loſs, but bleed!</l>
+               <l>They cou'd but ſee Her outward Pomp and State,</l>
+               <l>Kneel at Her Feet, and on Her Chariot wait:</l>
+               <l>Yet when the Gracious <hi>Sov'reign</hi> paſs'd but by,</l>
+               <l>With Hands upheld, and Joy in ev'ry Eye,</l>
+               <l>
+                  <hi>God ſave HER!</hi> was the Univerſal Cry.</l>
+               <l>Then to their Toil return'd, a-new reviv'd,</l>
+               <l>As if HER Sight had made 'em longer liv'd.</l>
+               <l>Nor did they judge amiſs; the Nation took</l>
+               <l>Enlive'ning Hope and Comfort from her Look.</l>
+               <l>But O, no more She'll be in Publick ſeen!</l>
+               <l>No more be greeted with <hi>God ſave the Q<g ref="char:V">Ʋ</g>EEN!</hi>
+               </l>
+               <l>
+                  <hi>God ſave the Q<g ref="char:V">Ʋ</g>EEN</hi> will now be heard no more,</l>
+               <l>With the united Voice and Cannon's Roar,</l>
+               <l>Echo'd from Land to Sea, and from the Fleets to Shore!</l>
+               <l>Deſpair and Horrour now aſſume the Place,</l>
+               <l>Anguiſh and Care, and all the Ghaſtly Race!</l>
+               <l>That Voice of Melody is turn'd to Mone!</l>
+               <l>And with HER Life the <hi>Britiſh</hi> Glory gone!</l>
+            </lg>
+            <lg>
+               <l>Cruel Diſeaſe! of all Death's Agents worſt,</l>
+               <l>By Nature fear'd, and ev'ry Tongue accurſt!</l>
+               <l>Ev'n where you ſpare y'are fatal, leaving ſtill</l>
+               <l>Behind thee Marks of a moſt envious Will,</l>
+               <l>Ev'n that defacing which thou canſt not kill.</l>
+               <l>Thy Rage, like Winter, on our Verdure feeds,</l>
+               <l>And no reviving Spring thy Blaſt ſucceeds.</l>
+               <l>Beauty once gone, alas! returns no more,</l>
+               <l>No Pencil can the Glorious Rays reſtore,</l>
+               <l>That charm'd ſo ſoon, and ſhone ſo bright before.</l>
+               <pb n="11" facs="tcp:100744:6"/>
+               <l>Thou doſt at once what Age is doing long,</l>
+               <l>And harder treat the Beauteous and the Young.</l>
+               <l>By other Ills though w' are of Life bereft,</l>
+               <l>There's yet at leaſt ſome Humane Likeneſs left:</l>
+               <l>But when we do thy barb'rous Work behold,</l>
+               <l>We know not if the Dead were Young or Old.</l>
+               <l>From the deteſtable and loathſome Sight</l>
+               <l>We turn our Eyes, and ſtiffen with Affright!</l>
+               <l>The Mother knows her only Darling's gone,</l>
+               <l>And tears her hair for Grief, but looking down,</l>
+               <l>She ſhrieks, and ſcarce believes it is her own!</l>
+               <l>By thee diſguis'd, ſo lies our Sacred QUEEN!</l>
+               <l>No more with Joy and Wonder to be ſeen;</l>
+               <l>A <hi>Lazar,</hi> ſcarce to Her Attendants known,</l>
+               <l>Her Vernal Hue and Balmy Sweetneſs gone!</l>
+            </lg>
+            <lg>
+               <l>Ye Sons of <hi>Æſculapius,</hi> boaſt no more,</l>
+               <l>That you the <hi>Weak</hi> to <hi>Health</hi> and <hi>Strength</hi> reſtore:</l>
+               <l>
+                  <hi>Vain</hi> is your <hi>Learning,</hi> and your <hi>Art</hi> a <hi>Cheat,</hi>
+               </l>
+               <l>At leaſt 'tis ever <hi>Fatal</hi> to the <hi>GREAT;</hi>
+               </l>
+               <l>
+                  <hi>All</hi> you can <hi>do</hi> is but a <hi>happy Gueſs,</hi>
+               </l>
+               <l>And <hi>a whole College</hi> has the <hi>leaſt Succeſs.</hi>
+               </l>
+               <l>Like a ſharp two-edg'd Sword you <hi>both ways ſlay;</hi>
+               </l>
+               <l>Oft by your <hi>Haſte,</hi> and oft by your <hi>Delay.</hi>
+               </l>
+               <l>Thoſe by your <hi>Help</hi> recover'd, had, no doubt,</l>
+               <l>Sooner recover'd to their <hi>Health</hi> without.</l>
+               <l>You are your ſelves an <hi>Epidemick Ill,</hi>
+               </l>
+               <l>And for the <hi>Few</hi> you <hi>ſave</hi> you <hi>Thouſands kill:</hi>
+               </l>
+               <l>To <hi>Plagues</hi> and <hi>Pestilential Blaſts</hi> a-kin,</l>
+               <l>Their <hi>Poyſons</hi> reign <hi>without,</hi> and yours <hi>within.</hi>
+               </l>
+               <l>From you 'tis <hi>Weakneſs</hi> to expect <hi>Relief,</hi>
+               </l>
+               <l>Both <hi>Atheiſts</hi> in your <hi>Practice</hi> and <hi>Belief:</hi>
+               </l>
+               <l>From <hi>GOD</hi> can Favour on your <hi>Work</hi> be ſhown,</l>
+               <l>When you ſo boldly argue there is <hi>None?</hi>
+               </l>
+               <l>Yet O, (to this Reproof though juſtly mov'd)</l>
+               <l>Had you this <hi>Life preſerv'd,</hi> y' had ſtood <hi>approv'd,</hi>
+               </l>
+               <l>By <hi>Poets prais'd,</hi> and <hi>Nations</hi> been <hi>belov'd.</hi>
+               </l>
+               <pb n="12" facs="tcp:100744:7"/>
+               <l>Thoſe that wou'd <hi>live</hi> muſt your <hi>Preſcriptions</hi> ſhun;</l>
+               <l>Tho' who, alas! wou'd value now his own?</l>
+               <l>The Great, the Good, the Juſt <hi>MARIA</hi> gone!</l>
+            </lg>
+            <lg>
+               <l>A dieu, Thou Beſt of Humankind, adieu!</l>
+               <l>And O, not only Beſt, but Faireſt too!</l>
+               <l>A long Farewell Thy wretched Subjects give,</l>
+               <l>And for thy Death reſolve in Grief to live.</l>
+               <l>What tho' our Conqu'ring <hi>Monarch</hi> may reſtore</l>
+               <l>A Pubblick Peace? YOU muſt return no more!</l>
+               <l>YOU wou'd to us a Greater Bleſſing be,</l>
+               <l>Ev'n <hi>Peace</hi> was not ſo much ador'd as <hi>THEE!</hi>
+               </l>
+               <l>While that was with us it leſs brightly ſhone,</l>
+               <l>Nor has been ſo lamented ſince 'twas gone!</l>
+            </lg>
+            <lg>
+               <l>But though for HER (ye Pow'rs) in vain we pray'd,</l>
+               <l>Ah, let <hi>HIS</hi> Fate the longer be delay'd!</l>
+               <l>Thoſe Years which for Her Reign ſo ſhort did ſeem,</l>
+               <l>And all <hi>SHE</hi> ſhou'd have liv'd, transfer to <hi>HIM.</hi>
+               </l>
+               <l>Yet ſo to pray is ſcarce to be His Friend,</l>
+               <l>Since but with Life His Sorrows will have End!</l>
+               <l>Ah, Gracious PRINCE! when you hereafter come</l>
+               <l>From <hi>Gallia,</hi> cover'd with Your Laurels, home;</l>
+               <l>When You have done what Y' are preſcrib'd by Fate,</l>
+               <l>Enlarg'd our Bounds, and rais'd a ſinking State;</l>
+               <l>Compos'd our Foreign and Domeſtick Jars,</l>
+               <l>And put a Glorious Period to the Wars;</l>
+               <l>Though all the Nation ſhall in Joy appear,</l>
+               <l>The Court for your Reception Balls prepare,</l>
+               <l>Will you not grieve to miſs <hi>MARIA</hi> there?</l>
+               <l>
+                  <hi>SHE</hi> was the Soul, the Nation's but the Ghoſt,</l>
+               <l>That, but the Shadow, <hi>SHE,</hi> the Subſtance loſt!</l>
+               <l>But then remember, <hi>SHE</hi>'s but loſt to gain</l>
+               <l>A Brighter Crown, and a more Laſting Reign!</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:100744:7"/>
+         </div>
+      </body>
+   </text>
+</TEI>
